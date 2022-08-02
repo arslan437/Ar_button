@@ -12,7 +12,7 @@
 /*
  * Debounce time for the buttons
  */
-#define DEBOUNCE_TIME 50
+#define DEBOUNCE_TIME 100
 
 typedef struct
 {

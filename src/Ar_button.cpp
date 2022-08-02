@@ -39,8 +39,8 @@ void read_button(Button_t *btn)
       if (btn->ptr_release_cb != NULL)
       {
         btn->ptr_release_cb(millis() - (btn->tim - 30), btn->tim);
-        btn->md = 0;
       }
+      btn->md = 0;
     }
     else if (!digitalRead(btn->pin))
     {
