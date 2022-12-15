@@ -21,7 +21,7 @@ void setup()
     Serial.begin(9600);
     init_button(&btn, BTN_1);
     set_button_pressed_cb(&btn, fnc_pressed);
-    //set_button_released_cb(&btn, fnc_released);
+    set_button_released_cb(&btn, fnc_released);
 }
 
 void loop()
